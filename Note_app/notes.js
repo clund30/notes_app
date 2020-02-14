@@ -21,8 +21,6 @@ const addNote = function (title, body) {
     } else {
         console.log('Title Taken')
     }
-    
-    
 }
 
 const saveNotes = function (notes) {
@@ -52,7 +50,6 @@ const loadNotes = function () {
     } catch (e) {
         return []
     }
-    
 }
 
 module.exports = {
